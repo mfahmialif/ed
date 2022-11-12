@@ -6,7 +6,7 @@ composer require mfahmialif/ed
 ```
 then
 ```
-php artisan vendor:publish --provider="Mfahmialif\Ed\EDServiceProvider" --tag="config"
+php artisan vendor:publish --tag="ez-deploy"
 ```
 Ez deploy laravel's website <br>
 Feel free to use.
