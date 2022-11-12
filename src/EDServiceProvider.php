@@ -11,7 +11,7 @@ class EDServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/htaccess' => base_path('/')
-        ], 'config');
+        ], 'ez-deploy');
     }
 
     public function register()
